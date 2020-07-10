@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:com:contoso:SampleModelPy;1",
+  "@type": "Interface",
+  "displayName": "SampleModelPy",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    },
+    {
+      "@type": "Property",
+      "name": "data",
+      "schema": "string"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
